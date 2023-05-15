@@ -1,0 +1,1 @@
+SELECT c.first_name, c.last_name, AVG(r.portion) AS avg_portion, MIN(r.portion) AS min_portion, MAX(r.portion) AS max_portionFROM Caregivers AS c, Real_Meals AS r WHERE c.id = r.caregiver_idGROUP BY c.first_name, c.last_name;

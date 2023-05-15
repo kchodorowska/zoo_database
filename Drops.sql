@@ -1,0 +1,13 @@
+DROP TABLE Real_Ingredients;
+DROP TABLE Real_Meals;
+DROP TABLE Warehouse_Ingredients;
+DROP TABLE Ingredient_Meal;
+DROP TABLE Units;
+DROP TABLE Ingredients_Catalog;
+DROP TABLE Meals_Catalog;
+DROP TABLE Animal_Diet;
+DROP TABLE Diets_Catalog;
+DROP TABLE Caregivers;
+DROP TABLE Animals;
+DROP TABLE Sector_Box;
+DROP TABLE Sectors;
